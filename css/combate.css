@@ -1,0 +1,26 @@
+body {
+    background-image: url('../assets/img/combate\ pokimon.jpg');
+    text-align: center;
+    font-family: 'pokimon';
+  }
+  
+  .combate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  .pokemon-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+.versus{
+    font-size: 100px;
+}
+
+.btn-detalles {
+    color : black;
+}

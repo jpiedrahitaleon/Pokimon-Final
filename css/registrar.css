@@ -1,0 +1,116 @@
+body{
+    background-image: url('../assets/img/poki\ registrars.webp');
+    background-size:cover;
+}
+
+.titlePoki{
+    font-family: Pokimon;
+    color: white;
+    font-size: 50px;
+}
+
+.container{
+    display:flex;
+    justify-content:left;
+    align-items: left;
+    height: 40vh;
+}
+.container-seg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+}
+
+.container h1{
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(1, 1, 1);
+}
+
+.titleSub-poki{
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.text-poki{
+    color: white;
+    font-family: Pokimon;
+    font-size: 25px;
+}
+
+.botton-group{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+}
+
+.formulario-poki{
+    background-color: white;
+    height: 90px;
+    width: 30%;
+    border-radius: 10PX;
+    padding: 10px;
+    box-shadow: #fff 0px 0px 20px;
+    text-align: right;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse:separate;
+}
+
+table td{
+    font-family: Pokimon;
+}
+
+.botton-poki{
+    background-color:cadetblue;
+    color:black;
+    border-radius: 25px;
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    font-family: Pokimon;
+    border:aqua;
+    margin: 6px;
+    margin-top: 17px;
+    box-shadow: lightblue 0px 0px 10px;
+}
+
+.botton-poki:hover{
+    background-color:darkblue;
+    color: red;
+    cursor: pointer;
+    box-shadow: rgb(87, 35, 35) 0px 0px 10px;
+    transition: 0.5s;
+}
+
+.input-poki{
+    border: solid 2px lightblue;
+    border-radius: 10px;
+    height: 20px;
+    width: 80%;
+    padding: 6px;
+}
+
+.link-poki{
+    font-family: Pokimon;
+    color: white;
+}
+
+.formulario{
+   background-color: lightblue;
+   width: 25%;
+   border-radius: 12px;
+   padding: 12px;
+}
+
+
+@font-face {
+    font-family: 'Pokimon';
+    src: url('../assets/fuentes/Minecraft.ttf') format('truetype');
+}
